@@ -43,7 +43,7 @@ def _init_llm():
     # 创建客户端连接
     client = OpenAI(
         # 百炼API Key
-        api_key="sk-9dac9bc999f246eca490105ea0xxxxxx",
+        api_key="sk-9dac9xxxxx05ea0xxxxxx",
         # 大模型厂商的地址
         base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
     )
