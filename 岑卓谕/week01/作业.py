@@ -30,7 +30,7 @@ word_set=set(df[1].values)
 print(f"类别：{word_set}")
 
 llm_client=OpenAI(
-    api_key="sk-899b7455a4074832b92b7ac81b6aa6e2",
+    api_key="sk-899b7cxcxxxxxb92b7ac81b6aa6e2",
     base_url="https://dashscope.aliyuncs.com/compatible-mode/v1"
 )
 llm_completion=llm_client.chat.completions.create(
