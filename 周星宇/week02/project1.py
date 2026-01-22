@@ -5,7 +5,7 @@ import torch.optim as optim
 from torch.utils.data import Dataset, DataLoader
 
 # 1. 数据加载与预处理
-# 读取CSV文件，文件以制表符分隔，且没有表头
+# 读取CSV文件
 dataset = pd.read_csv("dataset.csv", sep="\t", header=None)
 texts = dataset[0].tolist()  # 提取第一列作为文本列表
 string_labels = dataset[1].tolist()  # 提取第二列作为字符串标签列表
